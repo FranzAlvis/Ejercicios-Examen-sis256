@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p>
+        Solicitar mediante formularios filas y columnas luego llamar a la página tabla.php que
+        genera una tabla con la cantidad de filas +1 y columnas +1 y en cada intersección de fila
+        con columna(excepto la primera fila y la primera columna donde deben estar los números
+        de fila y columna con negrita y de color gris, el valor de la multiplicación Ej: para 2 filas y 3
+        columnas
+    </p>
+    <form action="tabla.php" method="get">
+        <label for="filas">Filas</label>
+        <input type="number" name="filas" id="filas">
+        <label for="columnas">Columnas</label>
+        <input type="number" name="columnas" id="columnas">
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+
+</html>
