@@ -1,0 +1,108 @@
+body {
+    margin: 100px auto;
+    max-width: 900px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.m0{
+    margin: 0;
+}
+.m1{
+    margin-top: 30px;
+}
+
+.header {
+    padding-top: 20px;
+    background-color: #B8CCE4;
+    height: 200px;
+    line-height: 0;
+    border: 1px solid black;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 300px 600px;
+}
+
+.imagen {
+    margin: 10px 0 0 200px;
+}
+.imagen img{
+    width: 80px;
+    height: 100px;
+}
+
+.uni {
+    font-size: 30px;
+    padding-top: 10px;
+}
+
+.facu {
+    font-size: 25px;
+}
+
+.regla {
+    display: flex;
+    align-items: center;    
+    gap: 100px;
+    line-height: 0;
+}
+
+.rojo {
+    color: red;
+}
+
+.amarillo {
+    color: yellow;
+}
+
+.verde {
+    color: green;
+}
+
+.azul {
+    color: blue;
+}
+
+.sucre {
+    font-size: 15px;
+}
+.center{
+    font-size: 20px;
+    padding: 5px;
+    text-align: center;
+}
+
+/* main */
+.main{
+    display: grid;
+    grid-template-columns: 120px 780px;
+    border: 1px solid black;
+    height: 220px;
+}
+.derecha{
+    
+    background-color: #404040;
+}
+.tabla table{
+    padding: 10px;
+}
+tr{
+    background-color: white;
+}
+td{
+    border: 0px solid black;
+    border-collapse: collapse;
+    padding: 10px 5px;
+}
+
+.izquierda{
+    padding: 0 5px 5px 20px;
+}
+.linea{
+    line-height: 0.5;
+}
+.linea li{
+    line-height: 1.2;
+    padding-left: 25px;
+}
