@@ -19,7 +19,7 @@ class Examen
         $a = 0;
         $b = 1;
         $c = 0;
-        echo "$b "; //1
+        echo "$a $b "; //1
         for ($i = 1; $i < $this->n; $i++) {
             $c = $a + $b; //1| 2
             $a = $b; // 0 = 1| 
@@ -52,34 +52,19 @@ class Examen
     {
         $longitud = strlen($this->cadena);
         $cadena = $this->cadena;
-        $contador = $longitud / 2 - 1;//2
-        $aux = $contador;
-        echo '<table border="1px">';
-
-        for ($i = 0; $i < $longitud; $i++) {
-            echo "<tr>";
-            $contador = $contador - $i;//1
-            for ($j = 0; $j < ($longitud - $i - 2); $j++) {
-                echo "<td>&nbsp</td>";
-            }
-
-            for ($j = 0; $j <= $i; $j++) {
-                echo "<td>$cadena[$aux]</td>";
+        $contador = $longitud/2-1;
+        $aux=0;
+        $bandera=true;
+        for ($i = 0; $i < $longitud-2; $i++) {
+            $aux = $longitud-$i;//2
+            while ($bandera) {
+                echo $cadena[$aux];//A
                 $aux++;
+                if($aux==0){
+                    $bandera=false;
+                }
             }
-            $aux = $contador;
-            // while ($a >= $i) {
-            //     echo "<td>$cadena[$contador]</td>";
-            //     $contador++;
-            //     $a--;
-            // }
-
-            // for ($j = 0; $j < ($longitud - $i - 1); $j++) {
-            //     echo "<td>&nbsp;</td>";
-            // }
-            echo "</tr>";
+            echo "<br>";
         }
-
-        echo "</table>";
     }
 }
