@@ -1,0 +1,30 @@
+body {
+    /* estilos al body */
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.form{
+    margin: 50px auto;
+    background-color: rgb(175, 246, 246);
+    width: 500px;
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.form div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.tipo{
+    padding: 10px;
+}
+
+.btn{
+    margin: 20px auto 0 auto;
+    padding: 10px;
+    display: flex;
+}
