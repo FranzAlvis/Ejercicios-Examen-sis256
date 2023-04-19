@@ -1,0 +1,2 @@
+# Ejercicios-Examen-sis256
+ESTAN TODOS MENOS LOS EJERCICIOS 11 18 19
